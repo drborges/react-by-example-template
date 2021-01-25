@@ -9,14 +9,17 @@
 ## Hello World
 
 - [ ] Basic React App (no component at this point)
-  - [ ] Where' my `import React from "react"`?
+  - [ ] Note on `import React from "react"`?
 - [ ] Can be styled with CSS just like a HTML tag
 - [ ] Can also be styled programmatically via the `style` prop
 - [ ] Our first Component: `<Text value="Hello World" />`
   - [ ] Conditional rendering: `variant` prop
   - [ ] Let's move this into its own file so we don't clutter too much our `index.jsx` file
 - [ ] Can have children elements: The `<Card />` component
-  - [ ] Let's make this a little more interesting: The `zoomed` prop.
+  - [ ] Let's make this a little more interesting: The `zoomed` prop
+- [ ] Event handling: The `<Button />` component
+  - [ ] Add some style so it looks a little nicer...
+  - [ ] Passing down extra props into the native button. Example: `onClick` and `aria-label` props.
 
 ## Thinking in React
 
@@ -93,24 +96,18 @@ What do we know about this component?
 
 ### The Text Component
 
-What do we know about this component?
-
 - [x] Should support two styles:
   - [x] One to be used for the “Tic Tac Toe” title
   - [x] Another for the rest of the text used in the App
 
 ### The Card Component
 
-What do we know about this component?
-
 - [x] It will define the boundaries of our app, e.g. container holding the app title, match info, game board, game statistics, etc...
 
 ### The Button Component
 
-What do we know about this component?
-
-- [ ] Should decorate the native button element with our custom style
-- [ ] Should still provide all the built-in capabilities of a button. Example: `onClick` and `aria-label` props.
+- [x] Should decorate the native button element with our custom style
+- [x] Should still provide all the built-in capabilities of a button. Example: `onClick` and `aria-label` props.
 
 ## State and Application Logic
 
