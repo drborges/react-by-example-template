@@ -60,8 +60,6 @@ The pseudo code below gives an idea of how we can structure our app in terms of 
   </Card>
 ```
 
-You can choose to start developing any of these components. I usually start from the ones used most deeply in the component tree, in this case, the `Cell` component.
-
 ## Getting Thing Done
 
 ### The Board Component
